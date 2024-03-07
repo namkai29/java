@@ -1,7 +1,9 @@
+package person;
+
 import java.util.Scanner;
 
-public class SinhVien {
-    public String hoTen;
+public class sinhvien {
+     public String hoTen;
     public String maSV;
     public float diemMon1;
     public float diemMon2;
@@ -46,5 +48,5 @@ public class SinhVien {
             System.out.println("\nDat loai yeu!");
     }
     
-
+    
 }

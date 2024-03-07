@@ -5,12 +5,34 @@ public class HinhTron {
     public float banKinh;
     // public float chuVi;
     public float dienTich;
+    public toado toaDo;
 
     public void nhapBanKinh() {
         Scanner sc = new Scanner(System.in);
         System.out.print("Ban kinh =");
         banKinh = sc.nextFloat();
 
+    }
+
+    public void setBanKinh(float r) {
+        this.banKinh = r;
+    }
+
+    public void setToaDo(toado d) {
+        this.toaDo = d;
+
+    }
+
+    public void setToaDo(int x, int y) {
+        this.toaDo = new toado();
+        this.toaDo.x = x;
+        this.toaDo.y = y;
+    }
+
+    public void xuatToaDo() {
+        System.out.println("Toa do cua hinh tron la");
+        System.out.print("x= " + this.toaDo.x);
+        System.out.print("y= " + this.toaDo.y);
     }
 
     public float tinhChuVi() {
