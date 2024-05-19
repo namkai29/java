@@ -1,4 +1,4 @@
-package Baithuchanh.arrlist_linkedlist;
+package arrlist_linkedlist;
 
 import java.util.Scanner;
 
@@ -17,13 +17,17 @@ public class sinhvien {
         diem = sc.nextFloat();
     }
 
-    public void in() {
-       
+    public float getdiem(sinhvien a) {
+        return a.diem;
 
-        System.out.println("Ho va ten: "+hoTen);
-       
-        System.out.println("Diem="+diem);
-       
+    }
+    
+    public void in() {
+
+        System.out.println("Ho va ten: " + hoTen);
+
+        System.out.println("Diem=" + diem);
+
     }
 
 }

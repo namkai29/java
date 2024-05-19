@@ -1,4 +1,4 @@
-package Baithuchanh.arrlist_linkedlist;
+package arrlist_linkedlist;
 //Nhap vao 1 arrList
 
 //in ra phan tu max trong arrList
