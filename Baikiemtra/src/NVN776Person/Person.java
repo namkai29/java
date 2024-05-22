@@ -34,6 +34,7 @@ public class Person {
 
     // them person
     public void themPerson() {
+        System.out.println("Nhap thong tin :");
         Person ps = new Person();
         ps.nhap();
         arrlist.add(ps);
